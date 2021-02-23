@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-picture {
+    width: 300px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.child {
+    padding: 10px;
+}
