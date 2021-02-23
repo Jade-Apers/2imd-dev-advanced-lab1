@@ -14,3 +14,53 @@ body {
 .child {
     padding: 10px;
 }
+
+nav a {
+    padding: 15px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+nav a:hover {
+    color:blue;
+}
+
+nav {
+    margin: 20px;
+}
+
+header {
+    background: url("images/achtergrond.jpg") rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.questions {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.titel{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.trom{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
